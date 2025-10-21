@@ -304,7 +304,7 @@ function Auth0Provider({ children }: { children: React.ReactNode }) {
       domain="TODO"
       clientId="TODO"
       authorizationParams={{
-        audience: "https://firms.getestately.com/",
+        audience: "TODO",
         redirect_uri: window.location.origin,
       }}
     >

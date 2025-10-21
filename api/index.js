@@ -12,7 +12,7 @@ app.use(express.json())
 
 // Auth0 JWT middleware configuration
 const checkJwt = auth({
-  audience: 'https://firms.getestately.com/',
+  audience: 'TODO',
   issuer: 'https://estately-development.us.auth0.com/',
   jwksUri: 'https://estately-development.us.auth0.com/.well-known/jwks.json'
 })
